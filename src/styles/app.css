@@ -1,0 +1,157 @@
+.container {
+  margin: auto;
+  padding: 24px;
+}
+
+.parking-lot-wrapper {
+  overflow: auto;
+  border: 1px solid #9ca3af;
+  border-radius: 6px;
+  min-width: 50%;
+  max-height: 900px;
+}
+
+.loading {
+  justify-content: center;
+  display: flex;
+  padding: 24px;
+}
+
+.animate-spin {
+  margin: auto;
+}
+
+.entrances {
+  margin: 24px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.entrance {
+  border: 1px solid #9ca3af;
+  padding: 12px;
+}
+
+#car-sizes {
+  border: 1px solid #9ca3af;
+  border-radius: 6px;
+  padding: 6px;
+}
+
+.input-plate {
+  border: 1px solid #9ca3af;
+  border-radius: 6px;
+  padding: 6px;
+  margin-right: 12px;
+  width: 120px;
+}
+
+.row {
+  display: grid;
+  grid-auto-flow: column;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  margin-bottom: 36px;
+}
+
+.tile {
+  border: 1px solid #9ca3af;
+  border-radius: 6px;
+  margin: 0 24px;
+}
+
+.tile:hover {
+  background-color: #e8f6ef;
+}
+
+.slot {
+  padding: 6px;
+}
+
+.size {
+  border: 1px solid #9ca3af;
+}
+
+.size-S {
+  background-color: #ffafaf;
+}
+
+.size-M {
+  background-color: #f0d9ff;
+}
+
+.size-L {
+  background-color: #b5eaea;
+}
+
+.slot-content {
+  padding: 12px;
+  text-align: center;
+}
+
+.slot-number {
+  float: right;
+  font-weight: 500;
+  padding: 6px;
+  font-size: 12px;
+}
+
+.car-parked-size {
+  float: left;
+  font-weight: 500;
+  padding: 6px;
+  font-size: 12px;
+}
+
+.plate-number {
+  border: 1px solid #9ca3af;
+  margin-top: 18px;
+  font-size: 12px;
+}
+
+.car-icon {
+  display: inline;
+  padding-right: 6px;
+}
+
+button {
+  width: auto;
+  color: white;
+  font-weight: 500;
+  padding: 6px;
+  border-radius: 6px;
+}
+
+.park-btn {
+  background-color: #1687a7;
+  margin-left: 12px;
+}
+
+.park-btn:hover {
+  background-color: #0c7b93;
+}
+
+.action-buttons {
+  margin: 12px 24px;
+}
+
+.delete-entry {
+  background-color: #ff5c58;
+}
+
+.delete-entry:hover {
+  background-color: #9b0000;
+}
+
+.add-entry {
+  background-color: #557c55;
+  margin-right: 12px;
+}
+
+.add-entry:hover {
+  background-color: #116530;
+}
+
+.disabled {
+  pointer-events: none;
+  background-color: #9ca3af;
+}
