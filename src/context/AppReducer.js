@@ -41,23 +41,31 @@ export default (state, action) => {
                 isError: false,
             }
         case 'UNPARK_CARS':
+            let { id, timeOut } = action.payload;
+            state.parkedCars.find(car => {
+                if (car.plateNumber === id) {
+                    car.timeOut = timeOut;
+                }
+            });
             return {
                 ...state,
                 parkingLots: state.parkingLots,
                 parkedCars: state.parkedCars,
                 isLoading: false,
                 isError: false,
+            }
+        case 'TOGGLE_MODAL':
+            debugger;
+            return {
+                ...state,
+                modalState: action.payload
             }
         case 'ERROR':
             return {
                 ...state,
-                parkingLots: state.parkingLots,
-                parkedCars: state.parkedCars,
-                addedEntranceList: state.addedEntranceList,
-                isLoading: false,
-                isError: false,
+                isError: action.payload
             }
         default:
-            break;
+            return state;
     }
 }

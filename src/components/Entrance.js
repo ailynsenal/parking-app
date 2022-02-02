@@ -5,11 +5,14 @@ export const Entrance = ({ entranceNumber, index }) => {
     const [plateNumber, setPlateNumber] = useState('');
     const [size, setSize] = useState('0');
     const [isDuplicateEntry, setIsDuplicateEntry] = useState(false);
+    const [isFullParking, setIsFullParking] = useState(false);
 
     const { toParkCars, parkingLots, parkedCars } = useContext(GlobalContext);
 
     const onChangePlateNumber = e => {
         const value = e.target.value;
+        if (isDuplicateEntry) setIsDuplicateEntry(false);
+        if (isFullParking) setIsFullParking(false);
         setPlateNumber(value);
     }
 
@@ -65,7 +68,14 @@ export const Entrance = ({ entranceNumber, index }) => {
                 });
             });
         });
-        
+        debugger;
+
+        if (availableSlots.length === 0) {
+            setIsFullParking(true);
+            setPlateNumber('');
+            return;
+        }
+
         let availableSlotList = entranceNumber > 3 ? availableSlots.reverse() : availableSlots;
         let slotToPark = availableSlotList.map((slot) => {
             let distance = slot.location.split('');
@@ -107,11 +117,10 @@ export const Entrance = ({ entranceNumber, index }) => {
             getNearestParkingSlot(value);
         }
         else {
-            // if the car has no timeOut, it means its a duplicate entry
+            // if the car has no slotLocation, it means its a duplicate entry
             const { timeOut } = parkedCar;
             if (!timeOut) {
                 setIsDuplicateEntry(true);
-                setTimeout(() => setIsDuplicateEntry(false), 3000);
                 setPlateNumber('');
             }
             else {
@@ -139,32 +148,42 @@ export const Entrance = ({ entranceNumber, index }) => {
 
     return (
         <>
-            {(isDuplicateEntry) &&
-                alert('Duplicate Plate Number')
-            }
             <div className="entrance">
-                <input type="text"
-                    className="input-plate"
-                    placeholder="Plate Number"
-                    name="entrance"
-                    value={plateNumber}
-                    onChange={onChangePlateNumber}
-                />
+                <div className='entrance-content'>
+                    <input type="text"
+                        className="input-plate"
+                        placeholder="Plate Number"
+                        name="entrance"
+                        value={plateNumber}
+                        onChange={onChangePlateNumber}
+                    />
 
-                <select id="car-sizes"
-                    value={size}
-                    onChange={onChangeSize}>
-                    <option value="0">Small</option>
-                    <option value="1">Medium</option>
-                    <option value="2">Large</option>
-                </select>
+                    <select id="car-sizes"
+                        value={size}
+                        onChange={onChangeSize}>
+                        <option value="0">Small</option>
+                        <option value="1">Medium</option>
+                        <option value="2">Large</option>
+                    </select>
 
-                <button type="button"
-                    className="park-btn"
-                    value={entranceNumber}
-                    onClick={park}>
-                    PARK
-                </button>
+                    <button type="button"
+                        className="park-btn"
+                        value={entranceNumber}
+                        onClick={park}>
+                        PARK
+                    </button>
+                </div>
+
+                {(isDuplicateEntry) &&
+                    <p className="alert">
+                        Car is already parked!
+                    </p>
+                }
+                {(isFullParking) &&
+                    <p className="alert">
+                        No available slot for chosen car size!
+                    </p>
+                }
             </div>
         </>
   );

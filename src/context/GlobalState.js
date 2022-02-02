@@ -292,8 +292,9 @@ const initialState = {
     ],
     parkedCars: [],
     unparkedCars: [],
-    addedEntrances: [],
+    addedEntranceList: [],
     plateNumber: '',
+    modalState: '',
     isLoading: true,
     isError: false,
 }
@@ -323,6 +324,12 @@ export const GlobalProvider = ({ children }) => {
                     payload: response.data
                 })
             })
+            .catch(() => {
+              dispatch({
+                type: 'ERROR',
+                payload: true
+              })
+            });
     }
 
     const addEntrances = async ( payload ) => {
@@ -334,18 +341,29 @@ export const GlobalProvider = ({ children }) => {
                     payload: response.data
                 })
             })
+            .catch(() => {
+              dispatch({
+                type: 'ERROR',
+                payload: true
+              })
+            });
     }
 
     const deleteEntrance = async ( payload ) => {
         axios
             .delete(`${domainUrl}/added-entrances/${state.addedEntranceList.length}`)
             .then( response => {
-                debugger;
                 dispatch({
                     type: 'DELETE_ENTRANCE',
                     payload: response.data
                 })
             })
+            .catch(() => {
+              dispatch({
+                type: 'ERROR',
+                payload: true
+              })
+            });
     }
 
     const getParkedCars = async ( payload ) => {
@@ -358,18 +376,24 @@ export const GlobalProvider = ({ children }) => {
                     payload: response.data
                 })
             })
+            .catch(() => {
+              dispatch({
+                type: 'ERROR',
+                payload: true
+              })
+            });
     }
 
     const updateParkingList = (data) => {
-        if (data.length === 0) return; 
+        if (data.length === 0) return;
         data.forEach((car) => {
-            updateSlotObj(car);
+          updateSlotObj(car);
         });
     }
 
-    const updateSlotObj = (obj, overridePlateNum = false) => {
+    const updateSlotObj = (obj) => {
         const { id, plateNumber, size, slotLocation, timeIn, timeOut, originalTimeIn, wasParked} = obj;
-        if (state.parkingLots.length) {
+        if (slotLocation) {
             state.parkingLots[slotLocation[0]][slotLocation[1]][slotLocation[2]] = {
                 id,
                 plateNumber: plateNumber,
@@ -397,6 +421,12 @@ export const GlobalProvider = ({ children }) => {
                     payload: response.data
                 });
             })
+            .catch(() => {
+              dispatch({
+                type: 'ERROR',
+                payload: true
+              })
+            });
         }
         else {
             axiosCall = axios.post(`${domainUrl}/parked-cars`, payload, config)
@@ -407,6 +437,12 @@ export const GlobalProvider = ({ children }) => {
                     payload: response.data
                 });
             })
+            .catch(() => {
+              dispatch({
+                type: 'ERROR',
+                payload: true
+              })
+            });
         }
     }
 
@@ -422,62 +458,40 @@ export const GlobalProvider = ({ children }) => {
     }
 
     const unParkCars = async ( payload ) => {
-        const { originalTimeIn, timeIn, timeOut, plateNumber, slotSize } = payload;
-
-        let total = 40;
-        let extendedHours = 0;
+        const { plateNumber } = payload;
         let encodedPlateNumber = encodeURIComponent(plateNumber);
-        let hourlyRate = getHourlyRate(parseInt(slotSize));
-        let returnWithInOneHour = originalTimeIn !== timeIn;
 
-        // getting the difference of timeOut and timeIn
-        const newTimeIn = new Date(timeIn);
-        const newTimeOut = new Date(timeOut);
-        const timeDiff = newTimeOut - newTimeIn;
-        const msec = timeDiff;
-        const hours = Math.ceil(((msec / 1000) / 60) / 60);
-        const minutes = Math.ceil(msec / 1000 / 60);
-        const seconds = Math.ceil(msec / 1000);
+        payload.slotLocation = null;
 
-        // we first substract the 3 hours flat rate that cost 40 pesos
-        // then check if the extended hour corresponds to days
-        // then get the remaining hours from the days (if any)
-        if (hours > 3) {
-            extendedHours = hours - 3;
-            let days = getDays(extendedHours);
-            if (days >= 1) {
-                total += ((extendedHours - (days * 24)) * hourlyRate) + 5000;
-            }
-            else {
-                total += extendedHours * hourlyRate;
-            }
-        }
-
-        payload.total = total;
-        payload.totalHrsOfPark = hours;
-        console.log(total);
         axios
             .put(`${domainUrl}/parked-cars/${encodedPlateNumber}`, payload, config)
             .then(response => {
-              debugger;
-                const { slotLocation } = response.data;
-                state.parkedCars.find(car => {
-                  if (car.plateNumber === plateNumber) {
-                    car.timeOut = response.data.timeOut;
-                  }
-                });
-                state.parkingLots[slotLocation[0]][slotLocation[1]][slotLocation[2]].plateNumber = '';
                 dispatch({
                     type: 'UNPARK_CARS',
                     payload: response.data
                 });
             })
+            .catch(() => {
+              dispatch({
+                type: 'ERROR',
+                payload: true
+              })
+            });
     }
+
+    const toggleModal = toggleModalState => {
+      dispatch({
+        type: 'TOGGLE_MODAL',
+        payload: toggleModalState
+      });
+    }
+  
 
     return (<GlobalContext.Provider value={{
         parkingLots: state.parkingLots,
         parkedCars: state.parkedCars,
         addedEntranceList: state.addedEntranceList,
+        modalState: state.modalState,
         isLoading: state.isLoading,
         isError: state.isError,
         getAddedEntrances,
@@ -485,7 +499,8 @@ export const GlobalProvider = ({ children }) => {
         deleteEntrance,
         getParkedCars,
         toParkCars,
-        unParkCars
+        unParkCars,
+        toggleModal
     }}>
         {children}
     </GlobalContext.Provider>);
