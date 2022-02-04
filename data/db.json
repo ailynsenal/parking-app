@@ -1,973 +1,145 @@
 {
   "parked-cars": [
     {
-      "id": "1",
-      "plateNumber": "1",
-      "slotLocation": [
-        "0",
-        "0",
-        "0"
-      ],
+      "id": "8BJG874",
+      "plateNumber": "8BJG874",
+      "slotLocation": "000",
       "size": "0",
-      "timeIn": "2022-02-02T18:31:26.273Z",
-      "originalTimeIn": "2022-02-02T18:31:26.273Z",
+      "timeIn": "2022-02-04T02:50:48.634Z",
+      "originalTimeIn": "2022-02-04T02:50:48.634Z",
       "timeOut": null,
       "wasParked": false
     },
     {
-      "id": "2",
-      "plateNumber": "2",
-      "slotLocation": [
-        "0",
-        "0",
-        "1"
-      ],
+      "id": "6TZO194",
+      "plateNumber": "6TZO194",
+      "slotLocation": "001",
       "size": "0",
-      "timeIn": "2022-02-02T18:31:45.376Z",
-      "originalTimeIn": "2022-02-02T18:31:45.376Z",
-      "timeOut": null,
-      "wasParked": false
-    },
-    {
-      "id": "3",
-      "plateNumber": "3",
-      "slotLocation": [
-        "0",
-        "0",
-        "2"
-      ],
-      "size": "1",
-      "timeIn": "2022-02-02T18:31:54.459Z",
-      "originalTimeIn": "2022-02-02T18:31:54.459Z",
-      "timeOut": null,
-      "wasParked": false
-    },
-    {
-      "id": "4",
-      "plateNumber": "4",
-      "slotLocation": [
-        "0",
-        "1",
-        "1"
-      ],
-      "size": "1",
-      "timeIn": "2022-02-02T18:31:57.661Z",
-      "originalTimeIn": "2022-02-02T18:31:57.661Z",
-      "timeOut": null,
-      "wasParked": false
-    },
-    {
-      "id": "5",
-      "plateNumber": "5",
-      "slotLocation": [
-        "0",
-        "1",
-        "2"
-      ],
-      "size": "1",
-      "timeIn": "2022-02-02T18:32:00.249Z",
-      "originalTimeIn": "2022-02-02T18:32:00.249Z",
-      "timeOut": null,
-      "wasParked": false
-    },
-    {
-      "id": "6",
-      "plateNumber": "6",
-      "slotLocation": [
-        "0",
-        "2",
-        "0"
-      ],
-      "size": "0",
-      "timeIn": "2022-02-02T18:32:05.039Z",
-      "originalTimeIn": "2022-02-02T18:32:05.039Z",
-      "timeOut": null,
-      "wasParked": false
-    },
-    {
-      "id": "7",
-      "plateNumber": "7",
-      "slotLocation": [
-        "0",
-        "2",
-        "1"
-      ],
-      "size": "0",
-      "timeIn": "2022-02-02T18:32:07.563Z",
-      "originalTimeIn": "2022-02-02T18:32:07.563Z",
-      "timeOut": null,
-      "wasParked": false
-    },
-    {
-      "id": "8",
-      "plateNumber": "8",
-      "slotLocation": [
-        "0",
-        "2",
-        "2"
-      ],
-      "size": "1",
-      "timeIn": "2022-02-02T18:32:12.209Z",
-      "originalTimeIn": "2022-02-02T18:32:12.209Z",
-      "timeOut": null,
-      "wasParked": false
-    },
-    {
-      "id": "9",
-      "plateNumber": "9",
-      "slotLocation": [
-        "0",
-        "3",
-        "2"
-      ],
-      "size": "2",
-      "timeIn": "2022-02-02T18:32:17.992Z",
-      "originalTimeIn": "2022-02-02T18:32:17.992Z",
-      "timeOut": null,
-      "wasParked": false
-    },
-    {
-      "id": "10",
-      "plateNumber": "10",
-      "slotLocation": [
-        "0",
-        "1",
-        "0"
-      ],
-      "size": "0",
-      "timeIn": "2022-02-02T18:32:22.923Z",
-      "originalTimeIn": "2022-02-02T18:32:22.923Z",
-      "timeOut": null,
-      "wasParked": false
-    },
-    {
-      "id": "11",
-      "plateNumber": "11",
-      "slotLocation": [
-        "0",
-        "3",
-        "0"
-      ],
-      "size": "0",
-      "timeIn": "2022-02-02T18:32:25.253Z",
-      "originalTimeIn": "2022-02-02T18:32:25.253Z",
-      "timeOut": null,
-      "wasParked": false
-    },
-    {
-      "id": "12",
-      "plateNumber": "12",
-      "slotLocation": [
-        "0",
-        "3",
-        "1"
-      ],
-      "size": "0",
-      "timeIn": "2022-02-02T18:32:26.917Z",
-      "originalTimeIn": "2022-02-02T18:32:26.917Z",
-      "timeOut": null,
-      "wasParked": false
-    },
-    {
-      "id": "13",
-      "plateNumber": "13",
-      "slotLocation": [
-        "0",
-        "4",
-        "0"
-      ],
-      "size": "0",
-      "timeIn": "2022-02-02T18:32:31.359Z",
-      "originalTimeIn": "2022-02-02T18:32:31.359Z",
-      "timeOut": null,
-      "wasParked": false
-    },
-    {
-      "id": "14",
-      "plateNumber": "14",
-      "slotLocation": [
-        "0",
-        "4",
-        "1"
-      ],
-      "size": "1",
-      "timeIn": "2022-02-02T18:32:35.953Z",
-      "originalTimeIn": "2022-02-02T18:32:35.953Z",
-      "timeOut": null,
-      "wasParked": false
-    },
-    {
-      "id": "15",
-      "plateNumber": "15",
-      "slotLocation": [
-        "0",
-        "4",
-        "2"
-      ],
-      "size": "1",
-      "timeIn": "2022-02-02T18:32:38.103Z",
-      "originalTimeIn": "2022-02-02T18:32:38.103Z",
-      "timeOut": null,
-      "wasParked": false
-    },
-    {
-      "id": "16",
-      "plateNumber": "16",
-      "slotLocation": [
-        "1",
-        "4",
-        "1"
-      ],
-      "size": "1",
-      "timeIn": "2022-02-02T18:32:40.262Z",
-      "originalTimeIn": "2022-02-02T18:32:40.262Z",
-      "timeOut": null,
-      "wasParked": false
-    },
-    {
-      "id": "17",
-      "plateNumber": "17",
-      "slotLocation": [
-        "1",
-        "4",
-        "2"
-      ],
-      "size": "1",
-      "timeIn": "2022-02-02T18:32:51.019Z",
-      "originalTimeIn": "2022-02-02T18:32:51.019Z",
-      "timeOut": null,
-      "wasParked": false
-    },
-    {
-      "id": "18",
-      "plateNumber": "18",
-      "slotLocation": [
-        "1",
-        "3",
-        "1"
-      ],
-      "size": "1",
-      "timeIn": "2022-02-02T18:32:58.389Z",
-      "originalTimeIn": "2022-02-02T18:32:58.389Z",
-      "timeOut": null,
-      "wasParked": false
-    },
-    {
-      "id": "19",
-      "plateNumber": "19",
-      "slotLocation": [
-        "1",
-        "4",
-        "0"
-      ],
-      "size": "0",
-      "timeIn": "2022-02-02T18:33:03.988Z",
-      "originalTimeIn": "2022-02-02T18:33:03.988Z",
-      "timeOut": null,
-      "wasParked": false
-    },
-    {
-      "id": "20",
-      "plateNumber": "20",
-      "slotLocation": [
-        "1",
-        "3",
-        "2"
-      ],
-      "size": "2",
-      "timeIn": "2022-02-02T18:33:11.431Z",
-      "originalTimeIn": "2022-02-02T18:33:11.431Z",
-      "timeOut": null,
-      "wasParked": false
-    },
-    {
-      "id": "21",
-      "plateNumber": "21",
-      "slotLocation": [
-        "1",
-        "3",
-        "0"
-      ],
-      "size": "0",
-      "timeIn": "2022-02-02T18:33:14.795Z",
-      "originalTimeIn": "2022-02-02T18:33:14.795Z",
-      "timeOut": null,
-      "wasParked": false
-    },
-    {
-      "id": "22",
-      "plateNumber": "22",
-      "slotLocation": [
-        "1",
-        "2",
-        "1"
-      ],
-      "size": "1",
-      "timeIn": "2022-02-02T18:33:20.303Z",
-      "originalTimeIn": "2022-02-02T18:33:20.303Z",
-      "timeOut": null,
-      "wasParked": false
-    },
-    {
-      "id": "23",
-      "plateNumber": "23",
-      "slotLocation": [
-        "1",
-        "2",
-        "2"
-      ],
-      "size": "1",
-      "timeIn": "2022-02-02T18:33:23.343Z",
-      "originalTimeIn": "2022-02-02T18:33:23.343Z",
-      "timeOut": null,
-      "wasParked": false
-    },
-    {
-      "id": "24",
-      "plateNumber": "24",
-      "slotLocation": [
-        "1",
-        "1",
-        "2"
-      ],
-      "size": "2",
-      "timeIn": "2022-02-02T18:33:28.496Z",
-      "originalTimeIn": "2022-02-02T18:33:28.496Z",
-      "timeOut": null,
-      "wasParked": false
-    },
-    {
-      "id": "25",
-      "plateNumber": "25",
-      "slotLocation": [
-        "2",
-        "2",
-        "2"
-      ],
-      "size": "2",
-      "timeIn": "2022-02-02T18:33:32.365Z",
-      "originalTimeIn": "2022-02-02T18:33:32.365Z",
-      "timeOut": null,
-      "wasParked": false
-    },
-    {
-      "id": "26",
-      "plateNumber": "26",
-      "slotLocation": [
-        "1",
-        "0",
-        "2"
-      ],
-      "size": "2",
-      "timeIn": "2022-02-02T18:33:43.945Z",
-      "originalTimeIn": "2022-02-02T18:33:43.945Z",
-      "timeOut": null,
-      "wasParked": false
-    },
-    {
-      "id": "27",
-      "plateNumber": "27",
-      "slotLocation": [
-        "1",
-        "2",
-        "0"
-      ],
-      "size": "0",
-      "timeIn": "2022-02-02T18:33:50.587Z",
-      "originalTimeIn": "2022-02-02T18:33:50.587Z",
-      "timeOut": null,
-      "wasParked": false
-    },
-    {
-      "id": "28",
-      "plateNumber": "28",
-      "slotLocation": [
-        "1",
-        "0",
-        "0"
-      ],
-      "size": "0",
-      "timeIn": "2022-02-02T18:33:55.603Z",
-      "originalTimeIn": "2022-02-02T18:33:55.603Z",
-      "timeOut": null,
-      "wasParked": false
-    },
-    {
-      "id": "29",
-      "plateNumber": "29",
-      "slotLocation": [
-        "1",
-        "0",
-        "1"
-      ],
-      "size": "1",
-      "timeIn": "2022-02-02T18:34:01.277Z",
-      "originalTimeIn": "2022-02-02T18:34:01.277Z",
-      "timeOut": null,
-      "wasParked": false
-    },
-    {
-      "id": "30",
-      "plateNumber": "30",
-      "slotLocation": [
-        "1",
-        "1",
-        "1"
-      ],
-      "size": "1",
-      "timeIn": "2022-02-02T18:50:38.013Z",
-      "originalTimeIn": "2022-02-02T18:34:04.921Z",
+      "timeIn": "2022-02-04T02:51:56.157Z",
+      "originalTimeIn": "2022-02-04T02:51:56.157Z",
       "timeOut": null,
       "wasParked": true
     },
     {
-      "id": "31",
-      "plateNumber": "31",
-      "slotLocation": [
-        "2",
-        "0",
-        "1"
-      ],
-      "size": "1",
-      "timeIn": "2022-02-02T18:34:09.652Z",
-      "originalTimeIn": "2022-02-02T18:34:09.652Z",
-      "timeOut": null,
-      "wasParked": false
-    },
-    {
-      "id": "32",
-      "plateNumber": "32",
-      "slotLocation": [
-        "1",
-        "1",
-        "0"
-      ],
+      "id": "6WFS866",
+      "plateNumber": "6WFS866",
+      "slotLocation": "002",
       "size": "0",
-      "timeIn": "2022-02-02T18:34:13.309Z",
-      "originalTimeIn": "2022-02-02T18:34:13.309Z",
+      "timeIn": "2022-02-04T02:51:59.496Z",
+      "originalTimeIn": "2022-02-04T02:51:59.496Z",
       "timeOut": null,
       "wasParked": false
     },
     {
-      "id": "33",
-      "plateNumber": "33",
-      "slotLocation": [
-        "2",
-        "0",
-        "0"
-      ],
-      "size": "0",
-      "timeIn": "2022-02-02T18:34:16.442Z",
-      "originalTimeIn": "2022-02-02T18:34:16.442Z",
-      "timeOut": null,
-      "wasParked": false
-    },
-    {
-      "id": "43",
-      "plateNumber": "43",
-      "slotLocation": [
-        "4",
-        "0",
-        "2"
-      ],
-      "size": "0",
-      "timeIn": "2022-02-02T18:34:38.625Z",
-      "originalTimeIn": "2022-02-02T18:34:38.625Z",
-      "timeOut": null,
-      "wasParked": false
-    },
-    {
-      "id": "35",
-      "plateNumber": "35",
-      "slotLocation": [
-        "4",
-        "0",
-        "1"
-      ],
-      "size": "0",
-      "timeIn": "2022-02-02T18:34:43.953Z",
-      "originalTimeIn": "2022-02-02T18:34:43.953Z",
-      "timeOut": null,
-      "wasParked": false
-    },
-    {
-      "id": "36",
-      "plateNumber": "36",
-      "slotLocation": [
-        "4",
-        "1",
-        "2"
-      ],
-      "size": "1",
-      "timeIn": "2022-02-02T18:34:49.293Z",
-      "originalTimeIn": "2022-02-02T18:34:49.293Z",
-      "timeOut": null,
-      "wasParked": false
-    },
-    {
-      "id": "37",
-      "plateNumber": "37",
-      "size": "1",
-      "slotLocation": null,
-      "timeIn": "2022-02-02T18:34:57.421Z",
-      "originalTimeIn": "2022-02-02T18:34:57.421Z",
-      "timeOut": "2022-02-02T18:45:50.594Z",
-      "totalParkingFee": 40,
-      "totalHrsOfPark": {
-        "days": 0,
-        "hours": 1,
-        "minutes": 11,
-        "seconds": 654
-      },
-      "wasParked": false
-    },
-    {
-      "id": "38",
-      "plateNumber": "38",
-      "slotLocation": [
-        "3",
-        "0",
-        "2"
-      ],
-      "size": "1",
-      "timeIn": "2022-02-02T18:35:10.553Z",
-      "originalTimeIn": "2022-02-02T18:35:10.553Z",
-      "timeOut": null,
-      "wasParked": false
-    },
-    {
-      "id": "39",
-      "plateNumber": "39",
-      "slotLocation": [
-        "3",
-        "1",
-        "2"
-      ],
+      "id": "8CSK325",
+      "plateNumber": "8CSK325",
+      "slotLocation": "022",
       "size": "2",
-      "timeIn": "2022-02-02T18:35:17.441Z",
-      "originalTimeIn": "2022-02-02T18:35:17.441Z",
+      "timeIn": "2022-02-04T02:55:34.457Z",
+      "originalTimeIn": "2022-02-04T02:55:34.457Z",
       "timeOut": null,
       "wasParked": false
     },
     {
-      "id": "40",
-      "plateNumber": "40",
-      "slotLocation": [
-        "4",
-        "2",
-        "2"
-      ],
-      "size": "2",
-      "timeIn": "2022-02-02T18:35:21.522Z",
-      "originalTimeIn": "2022-02-02T18:35:21.522Z",
-      "timeOut": null,
-      "wasParked": false
-    },
-    {
-      "id": "41",
-      "plateNumber": "41",
-      "slotLocation": [
-        "4",
-        "2",
-        "1"
-      ],
+      "id": "6YJG491",
+      "plateNumber": "6YJG491",
+      "slotLocation": "011",
       "size": "0",
-      "timeIn": "2022-02-02T18:35:29.643Z",
-      "originalTimeIn": "2022-02-02T18:35:29.643Z",
+      "timeIn": "2022-02-04T02:55:36.779Z",
+      "originalTimeIn": "2022-02-04T02:55:36.779Z",
+      "timeOut": null,
+      "wasParked": true
+    },
+    {
+      "id": "8DON005",
+      "plateNumber": "8DON005",
+      "slotLocation": "021",
+      "size": "1",
+      "timeIn": "2022-02-04T02:55:41.723Z",
+      "originalTimeIn": "2022-02-04T02:55:41.723Z",
       "timeOut": null,
       "wasParked": false
     },
     {
-      "id": "42",
-      "plateNumber": "42",
-      "slotLocation": [
-        "4",
-        "2",
-        "0"
-      ],
+      "id": "8DUW987",
+      "plateNumber": "8DUW987",
+      "slotLocation": "020",
       "size": "0",
-      "timeIn": "2022-02-02T18:35:32.945Z",
-      "originalTimeIn": "2022-02-02T18:35:32.945Z",
+      "timeIn": "2022-02-04T02:55:45.473Z",
+      "originalTimeIn": "2022-02-04T02:55:45.473Z",
       "timeOut": null,
       "wasParked": false
     },
     {
-      "id": "44",
-      "plateNumber": "44",
-      "slotLocation": [
-        "4",
-        "3",
-        "2"
-      ],
-      "size": "1",
-      "timeIn": "2022-02-02T18:35:41.842Z",
-      "originalTimeIn": "2022-02-02T18:35:41.842Z",
-      "timeOut": null,
-      "wasParked": false
-    },
-    {
-      "id": "45",
-      "plateNumber": "45",
-      "slotLocation": [
-        "3",
-        "2",
-        "2"
-      ],
-      "size": "2",
-      "timeIn": "2022-02-02T18:35:46.537Z",
-      "originalTimeIn": "2022-02-02T18:35:46.537Z",
-      "timeOut": null,
-      "wasParked": false
-    },
-    {
-      "id": "47",
-      "plateNumber": "47",
-      "slotLocation": [
-        "3",
-        "3",
-        "2"
-      ],
-      "size": "2",
-      "timeIn": "2022-02-02T18:35:51.043Z",
-      "originalTimeIn": "2022-02-02T18:35:51.043Z",
-      "timeOut": null,
-      "wasParked": false
-    },
-    {
-      "id": "48",
-      "plateNumber": "48",
-      "slotLocation": [
-        "4",
-        "4",
-        "2"
-      ],
+      "id": "6VFY907",
+      "plateNumber": "6VFY907",
+      "slotLocation": "010",
       "size": "0",
-      "timeIn": "2022-02-02T18:35:55.351Z",
-      "originalTimeIn": "2022-02-02T18:35:55.351Z",
+      "timeIn": "2022-02-04T02:55:47.700Z",
+      "originalTimeIn": "2022-02-04T02:55:47.700Z",
       "timeOut": null,
       "wasParked": false
     },
     {
-      "id": "49",
-      "plateNumber": "49",
-      "slotLocation": [
-        "3",
-        "4",
-        "2"
-      ],
-      "size": "2",
-      "timeIn": "2022-02-02T18:36:00.323Z",
-      "originalTimeIn": "2022-02-02T18:36:00.323Z",
-      "timeOut": null,
-      "wasParked": false
-    },
-    {
-      "id": "50",
-      "plateNumber": "50",
-      "slotLocation": [
-        "4",
-        "4",
-        "1"
-      ],
-      "size": "1",
-      "timeIn": "2022-02-02T18:36:08.289Z",
-      "originalTimeIn": "2022-02-02T18:36:08.289Z",
-      "timeOut": null,
-      "wasParked": false
-    },
-    {
-      "id": "51",
-      "plateNumber": "51",
-      "slotLocation": [
-        "4",
-        "3",
-        "1"
-      ],
-      "size": "1",
-      "timeIn": "2022-02-02T18:36:11.586Z",
-      "originalTimeIn": "2022-02-02T18:36:11.586Z",
-      "timeOut": null,
-      "wasParked": false
-    },
-    {
-      "id": "52",
-      "plateNumber": "52",
-      "slotLocation": [
-        "3",
-        "4",
-        "1"
-      ],
-      "size": "1",
-      "timeIn": "2022-02-02T18:36:19.640Z",
-      "originalTimeIn": "2022-02-02T18:36:19.640Z",
-      "timeOut": null,
-      "wasParked": false
-    },
-    {
-      "id": "53",
-      "plateNumber": "53",
-      "slotLocation": [
-        "4",
-        "4",
-        "0"
-      ],
+      "id": "6UDU409",
+      "plateNumber": "6UDU409",
+      "slotLocation": "040",
       "size": "0",
-      "timeIn": "2022-02-02T18:36:25.185Z",
-      "originalTimeIn": "2022-02-02T18:36:25.185Z",
+      "timeIn": "2022-02-04T02:55:50.500Z",
+      "originalTimeIn": "2022-02-04T02:55:50.500Z",
       "timeOut": null,
       "wasParked": false
     },
     {
-      "id": "54",
-      "plateNumber": "54",
-      "slotLocation": [
-        "4",
-        "3",
-        "0"
-      ],
+      "id": "8KHD153",
+      "plateNumber": "8KHD153",
+      "slotLocation": "041",
       "size": "0",
-      "timeIn": "2022-02-02T18:36:28.361Z",
-      "originalTimeIn": "2022-02-02T18:36:28.361Z",
+      "timeIn": "2022-02-04T02:55:52.561Z",
+      "originalTimeIn": "2022-02-04T02:55:52.561Z",
       "timeOut": null,
       "wasParked": false
     },
     {
-      "id": "55",
-      "plateNumber": "55",
-      "slotLocation": [
-        "3",
-        "4",
-        "0"
-      ],
-      "size": "0",
-      "timeIn": "2022-02-02T18:36:30.183Z",
-      "originalTimeIn": "2022-02-02T18:36:30.183Z",
+      "id": "7XCK416",
+      "plateNumber": "7XCK416",
+      "slotLocation": "042",
+      "size": "1",
+      "timeIn": "2022-02-04T02:55:56.223Z",
+      "originalTimeIn": "2022-02-04T02:55:56.223Z",
       "timeOut": null,
       "wasParked": false
     },
     {
-      "id": "56",
-      "plateNumber": "56",
-      "slotLocation": [
-        "3",
-        "3",
-        "1"
-      ],
-      "size": "0",
-      "timeIn": "2022-02-02T18:36:33.381Z",
-      "originalTimeIn": "2022-02-02T18:36:33.381Z",
-      "timeOut": null,
-      "wasParked": false
-    },
-    {
-      "id": "57",
-      "plateNumber": "57",
-      "slotLocation": [
-        "3",
-        "3",
-        "0"
-      ],
-      "size": "0",
-      "timeIn": "2022-02-02T18:36:36.105Z",
-      "originalTimeIn": "2022-02-02T18:36:36.105Z",
-      "timeOut": null,
-      "wasParked": false
-    },
-    {
-      "id": "58",
-      "plateNumber": "58",
-      "slotLocation": [
-        "2",
-        "4",
-        "2"
-      ],
+      "id": "7MUF516",
+      "plateNumber": "7MUF516",
+      "slotLocation": "032",
       "size": "2",
-      "timeIn": "2022-02-02T18:36:44.338Z",
-      "originalTimeIn": "2022-02-02T18:36:44.338Z",
+      "timeIn": "2022-02-04T02:55:59.781Z",
+      "originalTimeIn": "2022-02-04T02:55:59.781Z",
       "timeOut": null,
       "wasParked": false
     },
     {
-      "id": "59",
-      "plateNumber": "59",
-      "slotLocation": [
-        "2",
-        "3",
-        "2"
-      ],
-      "size": "2",
-      "timeIn": "2022-02-02T18:36:48.256Z",
-      "originalTimeIn": "2022-02-02T18:36:48.256Z",
-      "timeOut": null,
-      "wasParked": false
-    },
-    {
-      "id": "61",
-      "plateNumber": "61",
-      "slotLocation": [
-        "2",
-        "0",
-        "2"
-      ],
-      "size": "2",
-      "timeIn": "2022-02-02T18:36:55.536Z",
-      "originalTimeIn": "2022-02-02T18:36:55.536Z",
-      "timeOut": null,
-      "wasParked": false
-    },
-    {
-      "id": "62",
-      "plateNumber": "62",
-      "slotLocation": [
-        "2",
-        "1",
-        "2"
-      ],
-      "size": "2",
-      "timeIn": "2022-02-02T18:36:59.126Z",
-      "originalTimeIn": "2022-02-02T18:36:59.126Z",
-      "timeOut": null,
-      "wasParked": false
-    },
-    {
-      "id": "63",
-      "plateNumber": "63",
-      "slotLocation": [
-        "3",
-        "2",
-        "1"
-      ],
-      "size": "1",
-      "timeIn": "2022-02-02T18:37:05.864Z",
-      "originalTimeIn": "2022-02-02T18:37:05.864Z",
-      "timeOut": null,
-      "wasParked": false
-    },
-    {
-      "id": "64",
-      "plateNumber": "64",
-      "slotLocation": [
-        "3",
-        "1",
-        "1"
-      ],
-      "size": "1",
-      "timeIn": "2022-02-02T18:37:09.334Z",
-      "originalTimeIn": "2022-02-02T18:37:09.334Z",
-      "timeOut": null,
-      "wasParked": false
-    },
-    {
-      "id": "65",
-      "plateNumber": "65",
-      "slotLocation": [
-        "2",
-        "4",
-        "1"
-      ],
-      "size": "1",
-      "timeIn": "2022-02-02T18:37:14.942Z",
-      "originalTimeIn": "2022-02-02T18:37:14.942Z",
-      "timeOut": null,
-      "wasParked": false
-    },
-    {
-      "id": "66",
-      "plateNumber": "66",
-      "slotLocation": [
-        "2",
-        "3",
-        "1"
-      ],
-      "size": "1",
-      "timeIn": "2022-02-02T18:37:20.458Z",
-      "originalTimeIn": "2022-02-02T18:37:20.458Z",
-      "timeOut": null,
-      "wasParked": false
-    },
-    {
-      "id": "67",
-      "plateNumber": "67",
-      "slotLocation": [
-        "2",
-        "2",
-        "1"
-      ],
-      "size": "1",
-      "timeIn": "2022-02-02T18:37:26.812Z",
-      "originalTimeIn": "2022-02-02T18:37:26.812Z",
-      "timeOut": null,
-      "wasParked": false
-    },
-    {
-      "id": "69",
-      "plateNumber": "69",
-      "slotLocation": [
-        "3",
-        "0",
-        "1"
-      ],
-      "size": "1",
-      "timeIn": "2022-02-02T18:37:31.358Z",
-      "originalTimeIn": "2022-02-02T18:37:31.358Z",
-      "timeOut": null,
-      "wasParked": false
-    },
-    {
-      "id": "mr3ZGE5",
+      "id": "wVG7jDO",
       "plateNumber": "",
-      "slotLocation": [
-        "2",
-        "1",
-        "1"
-      ],
-      "size": "1",
-      "timeIn": "2022-02-02T18:43:18.772Z",
-      "originalTimeIn": "2022-02-02T18:43:18.772Z",
+      "slotLocation": "142",
+      "size": "2",
+      "timeIn": "2022-02-04T02:56:20.089Z",
+      "originalTimeIn": "2022-02-04T02:56:20.089Z",
       "timeOut": null,
       "wasParked": false
     },
     {
-      "id": "10000",
-      "plateNumber": "10000",
-      "slotLocation": [
-        "2",
-        "1",
-        "1"
-      ],
-      "size": "1",
-      "timeIn": "2022-02-02T18:43:48.855Z",
-      "originalTimeIn": "2022-02-02T18:43:48.855Z",
-      "timeOut": null,
-      "wasParked": false
-    },
-    {
-      "id": "rerererere",
-      "plateNumber": "rerererere",
-      "slotLocation": [
-        "4",
-        "1",
-        "1"
-      ],
-      "size": "1",
-      "timeIn": "2022-02-02T18:45:54.168Z",
-      "originalTimeIn": "2022-02-02T18:45:54.168Z",
+      "id": "7YDA249",
+      "plateNumber": "7YDA249",
+      "slotLocation": "030",
+      "size": "0",
+      "timeIn": "2022-02-04T03:00:36.747Z",
+      "originalTimeIn": "2022-02-04T03:00:36.747Z",
       "timeOut": null,
       "wasParked": false
     }
   ],
-  "added-entrances": [
-    {
-      "toAddEntrance": true,
-      "id": 1
-    },
-    {
-      "toAddEntrance": true,
-      "id": 2
-    },
-    {
-      "toAddEntrance": true,
-      "id": 3
-    }
-  ]
+  "added-entrances": []
 }

@@ -1,4 +1,5 @@
 import React, { useContext, useState } from 'react';
+import { california } from 'license-plate-serial-generator';
 import { GlobalContext } from '../context/GlobalState';
 
 export const Entrance = ({ entranceNumber, index }) => {
@@ -6,13 +7,23 @@ export const Entrance = ({ entranceNumber, index }) => {
     const [size, setSize] = useState('0');
     const [isDuplicateEntry, setIsDuplicateEntry] = useState(false);
     const [isFullParking, setIsFullParking] = useState(false);
+    const [isNullPlateNumber, setIsNullPlateNumber] = useState(false);
 
     const { toParkCars, parkingLots, parkedCars } = useContext(GlobalContext);
+
+    const onClickGeneratePlateNumber = () => {
+        const generatedPlateNumber = california();
+        setPlateNumber(generatedPlateNumber);
+        if (isDuplicateEntry) setIsDuplicateEntry(false);
+        if (isFullParking) setIsFullParking(false);
+        if (isNullPlateNumber) setIsNullPlateNumber(false);
+    }
 
     const onChangePlateNumber = e => {
         const value = e.target.value;
         if (isDuplicateEntry) setIsDuplicateEntry(false);
         if (isFullParking) setIsFullParking(false);
+        if (isNullPlateNumber) setIsNullPlateNumber(false);
         setPlateNumber(value);
     }
 
@@ -33,7 +44,7 @@ export const Entrance = ({ entranceNumber, index }) => {
         };
     }
 
-    const getNearestParkingSlot = (entranceNumber, returnWithInOneHour = false, returnedCar) => {
+    const getNearestParkingSlot = (entranceNumber) => {
         const availableSlots = [];
         const nearestSlots = [];
 
@@ -44,21 +55,21 @@ export const Entrance = ({ entranceNumber, index }) => {
                 let slotIndex = index;
                 slots.filter((slot, index) => {
                     if (size === '0') {
-                        if (slot.plateNumber === '') {
+                        if (slot.slotLocation ===  "") {
                             availableSlots.push({
                                 location: `${rowIndex}${slotIndex}${index}`
                             });
                         }
                     }
                     else if (size === '1') {
-                        if (slot.plateNumber === '' && index !== 0) {
+                        if (slot.slotLocation === "" && index !== 0) {
                             availableSlots.push({
                                 location: `${rowIndex}${slotIndex}${index}`
                             });
                         }
                     }
                     else {
-                        if (slot.plateNumber === '' && index === 2) {
+                        if (slot.slotLocation === "" && index === 2) {
                             availableSlots.push({
                                 location: `${rowIndex}${slotIndex}${index}`
                             });
@@ -68,7 +79,6 @@ export const Entrance = ({ entranceNumber, index }) => {
                 });
             });
         });
-        debugger;
 
         if (availableSlots.length === 0) {
             setIsFullParking(true);
@@ -88,48 +98,71 @@ export const Entrance = ({ entranceNumber, index }) => {
         let getMinDistance = Math.min(...nearestSlots);
         let nearestParkingLot  = availableSlotList.find((slot) => {
             if (slot.distanceLocation === getMinDistance) {
-                let slotLocation = slot.location.split('');
-
-                toParkCars({
-                    id: plateNumber,
-                    plateNumber,
-                    slotLocation,
-                    size: returnWithInOneHour ? returnedCar.size : size,
-                    timeIn: new Date().toISOString(),
-                    originalTimeIn: returnWithInOneHour ? returnedCar.originalTimeIn : new Date().toISOString(),
-                    timeOut: null,
-                    wasParked: returnWithInOneHour
-                });
                 return slot;
             }
         });
-        setPlateNumber('');
+        return nearestParkingLot;
     }
 
     const park = e => {
         e.preventDefault();
-
+        if (!plateNumber) {
+            setIsNullPlateNumber(true);
+            return;
+        };
         const value = e.target.value;
         // check if the car is already park or a returned car
         const parkedCar = parkedCars.find(car => car.plateNumber === plateNumber);
-
-        if (!parkedCar) {
-            getNearestParkingSlot(value);
+        let getParkingSlot = getNearestParkingSlot(value);
+        if (!parkedCar && !isFullParking) {
+            toParkCars({
+                id: plateNumber,
+                plateNumber,
+                slotLocation: getParkingSlot.location,
+                size,
+                timeIn: new Date().toISOString(),
+                originalTimeIn: new Date().toISOString(),
+                timeOut: null,
+                wasParked:  false,
+            });
         }
         else {
-            // if the car has no slotLocation, it means its a duplicate entry
+            // if the car has no timeOut, it means its a duplicate entry
             const { timeOut } = parkedCar;
             if (!timeOut) {
                 setIsDuplicateEntry(true);
-                setPlateNumber('');
             }
             else {
                 // check if a returned car
-                const { id, size, originalTimeIn, timeIn, timeOut, slotLocation } = parkedCar;
+                const { timeIn, timeOut, originalTimeIn } = parkedCar;
                 const returnWithInOneHour = getMinutes(timeIn, timeOut) < 60;
-                getNearestParkingSlot(value, returnWithInOneHour, parkedCar);
+                if (returnWithInOneHour) {
+                    toParkCars({
+                        id: plateNumber,
+                        plateNumber,
+                        slotLocation: getParkingSlot.location,
+                        size,
+                        timeIn,
+                        originalTimeIn,
+                        timeOut: null,
+                        wasParked:  true,
+                    });
+                }
+                else {
+                    toParkCars({
+                        id: plateNumber,
+                        plateNumber,
+                        slotLocation: getParkingSlot.location,
+                        size,
+                        timeIn: new Date().toISOString(),
+                        originalTimeIn: new Date().toISOString(),
+                        timeOut: null,
+                        wasParked: true,
+                    });
+                }
             }
         }
+        setPlateNumber('');
     }
 
     // getting the difference of timeOut and timeIn
@@ -150,6 +183,11 @@ export const Entrance = ({ entranceNumber, index }) => {
         <>
             <div className="entrance">
                 <div className='entrance-content'>
+                    <button type="button"
+                        className="generate-plate-number"
+                        onClick={onClickGeneratePlateNumber}>
+                        GENERATE
+                    </button>
                     <input type="text"
                         className="input-plate"
                         placeholder="Plate Number"
@@ -177,6 +215,11 @@ export const Entrance = ({ entranceNumber, index }) => {
                 {(isDuplicateEntry) &&
                     <p className="alert">
                         Car is already parked!
+                    </p>
+                }
+                {(isNullPlateNumber) &&
+                    <p className="alert">
+                        Please input or generate plate number!
                     </p>
                 }
                 {(isFullParking) &&

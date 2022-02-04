@@ -7,286 +7,361 @@ const initialState = {
         [
           [
             {
-              "plateNumber": ""
+              "plateNumber": "",
+              "slotLocation": "",
             },
             {
-              "plateNumber": ""
+              "plateNumber": "",
+              "slotLocation": "",
             },
             {
-              "plateNumber": ""
-            }
+              "plateNumber": "",
+              "slotLocation": "",
+            },
           ],
           [
             {
-              "plateNumber": ""
+              "plateNumber": "",
+              "slotLocation": "",
             },
             {
-              "plateNumber": ""
+              "plateNumber": "",
+              "slotLocation": "",
             },
             {
-              "plateNumber": ""
-            }
+              "plateNumber": "",
+              "slotLocation": "",
+            },
           ],
           [
             {
-              "plateNumber": ""
+              "plateNumber": "",
+              "slotLocation": "",
             },
             {
-              "plateNumber": ""
+              "plateNumber": "",
+              "slotLocation": "",
             },
             {
-              "plateNumber": ""
-            }
+              "plateNumber": "",
+              "slotLocation": "",
+            },
           ],
           [
             {
-              "plateNumber": ""
+              "plateNumber": "",
+              "slotLocation": "",
             },
             {
-              "plateNumber": ""
+              "plateNumber": "",
+              "slotLocation": "",
             },
             {
-              "plateNumber": ""
-            }
+              "plateNumber": "",
+              "slotLocation": "",
+            },
           ],
           [
             {
-              "plateNumber": ""
+              "plateNumber": "",
+              "slotLocation": "",
             },
             {
-              "plateNumber": ""
+              "plateNumber": "",
+              "slotLocation": "",
             },
             {
-              "plateNumber": ""
-            }
+              "plateNumber": "",
+              "slotLocation": "",
+            },
           ]
         ],
         [
           [
             {
-              "plateNumber": ""
+              "plateNumber": "",
+              "slotLocation": "",
             },
             {
-              "plateNumber": ""
+              "plateNumber": "",
+              "slotLocation": "",
             },
             {
-              "plateNumber": ""
-            }
+              "plateNumber": "",
+              "slotLocation": "",
+            },
           ],
           [
             {
-              "plateNumber": ""
+              "plateNumber": "",
+              "slotLocation": "",
             },
             {
-              "plateNumber": ""
+              "plateNumber": "",
+              "slotLocation": "",
             },
             {
-              "plateNumber": ""
-            }
+              "plateNumber": "",
+              "slotLocation": "",
+            },
           ],
           [
             {
-              "plateNumber": ""
+              "plateNumber": "",
+              "slotLocation": "",
             },
             {
-              "plateNumber": ""
+              "plateNumber": "",
+              "slotLocation": "",
             },
             {
-              "plateNumber": ""
-            }
+              "plateNumber": "",
+              "slotLocation": "",
+            },
           ],
           [
             {
-              "plateNumber": ""
+              "plateNumber": "",
+              "slotLocation": "",
             },
             {
-              "plateNumber": ""
+              "plateNumber": "",
+              "slotLocation": "",
             },
             {
-              "plateNumber": ""
-            }
+              "plateNumber": "",
+              "slotLocation": "",
+            },
           ],
           [
             {
-              "plateNumber": ""
+              "plateNumber": "",
+              "slotLocation": "",
             },
             {
-              "plateNumber": ""
+              "plateNumber": "",
+              "slotLocation": "",
             },
             {
-              "plateNumber": ""
-            }
+              "plateNumber": "",
+              "slotLocation": "",
+            },
           ]
         ],
         [
           [
             {
-              "plateNumber": ""
+              "plateNumber": "",
+              "slotLocation": "",
             },
             {
-              "plateNumber": ""
+              "plateNumber": "",
+              "slotLocation": "",
             },
             {
-              "plateNumber": ""
-            }
+              "plateNumber": "",
+              "slotLocation": "",
+            },
           ],
           [
             {
-              "plateNumber": ""
+              "plateNumber": "",
+              "slotLocation": "",
             },
             {
-              "plateNumber": ""
+              "plateNumber": "",
+              "slotLocation": "",
             },
             {
-              "plateNumber": ""
-            }
+              "plateNumber": "",
+              "slotLocation": "",
+            },
           ],
           [
             {
-              "plateNumber": ""
+              "plateNumber": "",
+              "slotLocation": "",
             },
             {
-              "plateNumber": ""
+              "plateNumber": "",
+              "slotLocation": "",
             },
             {
-              "plateNumber": ""
-            }
+              "plateNumber": "",
+              "slotLocation": "",
+            },
           ],
           [
             {
-              "plateNumber": ""
+              "plateNumber": "",
+              "slotLocation": "",
             },
             {
-              "plateNumber": ""
+              "plateNumber": "",
+              "slotLocation": "",
             },
             {
-              "plateNumber": ""
-            }
+              "plateNumber": "",
+              "slotLocation": "",
+            },
           ],
           [
             {
-              "plateNumber": ""
+              "plateNumber": "",
+              "slotLocation": "",
             },
             {
-              "plateNumber": ""
+              "plateNumber": "",
+              "slotLocation": "",
             },
             {
-              "plateNumber": ""
-            }
+              "plateNumber": "",
+              "slotLocation": "",
+            },
           ]
         ],
         [
           [
             {
-              "plateNumber": ""
+              "plateNumber": "",
+              "slotLocation": "",
             },
             {
-              "plateNumber": ""
+              "plateNumber": "",
+              "slotLocation": "",
             },
             {
-              "plateNumber": ""
-            }
+              "plateNumber": "",
+              "slotLocation": "",
+            },
           ],
           [
             {
-              "plateNumber": ""
+              "plateNumber": "",
+              "slotLocation": "",
             },
             {
-              "plateNumber": ""
+              "plateNumber": "",
+              "slotLocation": "",
             },
             {
-              "plateNumber": ""
-            }
+              "plateNumber": "",
+              "slotLocation": "",
+            },
           ],
           [
             {
-              "plateNumber": ""
+              "plateNumber": "",
+              "slotLocation": "",
             },
             {
-              "plateNumber": ""
+              "plateNumber": "",
+              "slotLocation": "",
             },
             {
-              "plateNumber": ""
-            }
+              "plateNumber": "",
+              "slotLocation": "",
+            },
           ],
           [
             {
-              "plateNumber": ""
+              "plateNumber": "",
+              "slotLocation": "",
             },
             {
-              "plateNumber": ""
+              "plateNumber": "",
+              "slotLocation": "",
             },
             {
-              "plateNumber": ""
-            }
+              "plateNumber": "",
+              "slotLocation": "",
+            },
           ],
           [
             {
-              "plateNumber": ""
+              "plateNumber": "",
+              "slotLocation": "",
             },
             {
-              "plateNumber": ""
+              "plateNumber": "",
+              "slotLocation": "",
             },
             {
-              "plateNumber": ""
-            }
+              "plateNumber": "",
+              "slotLocation": "",
+            },
           ]
         ],
         [
           [
             {
-              "plateNumber": ""
+              "plateNumber": "",
+              "slotLocation": "",
             },
             {
-              "plateNumber": ""
+              "plateNumber": "",
+              "slotLocation": "",
             },
             {
-              "plateNumber": ""
-            }
+              "plateNumber": "",
+              "slotLocation": "",
+            },
           ],
           [
             {
-              "plateNumber": ""
+              "plateNumber": "",
+              "slotLocation": "",
             },
             {
-              "plateNumber": ""
+              "plateNumber": "",
+              "slotLocation": "",
             },
             {
-              "plateNumber": ""
-            }
+              "plateNumber": "",
+              "slotLocation": "",
+            },
           ],
           [
             {
-              "plateNumber": ""
+              "plateNumber": "",
+              "slotLocation": "",
             },
             {
-              "plateNumber": ""
+              "plateNumber": "",
+              "slotLocation": "",
             },
             {
-              "plateNumber": ""
-            }
+              "plateNumber": "",
+              "slotLocation": "",
+            },
           ],
           [
             {
-              "plateNumber": ""
+              "plateNumber": "",
+              "slotLocation": "",
             },
             {
-              "plateNumber": ""
+              "plateNumber": "",
+              "slotLocation": "",
             },
             {
-              "plateNumber": ""
-            }
+              "plateNumber": "",
+              "slotLocation": "",
+            },
           ],
           [
             {
-              "plateNumber": ""
+              "plateNumber": "",
+              "slotLocation": "",
             },
             {
-              "plateNumber": ""
+              "plateNumber": "",
+              "slotLocation": "",
             },
             {
-              "plateNumber": ""
-            }
+              "plateNumber": "",
+              "slotLocation": "",
+            },
           ]
         ]
     ],
@@ -319,10 +394,10 @@ export const GlobalProvider = ({ children }) => {
         axios
             .get(`${domainUrl}/added-entrances`)
             .then( response => {
-                dispatch({
-                    type: 'GET_ADDED_ENTRANCES',
-                    payload: response.data
-                })
+              dispatch({
+                  type: 'GET_ADDED_ENTRANCES',
+                  payload: response.data
+              })
             })
             .catch(() => {
               dispatch({
@@ -336,10 +411,10 @@ export const GlobalProvider = ({ children }) => {
         axios
             .post(`${domainUrl}/added-entrances`, payload, config)
             .then( response => {
-                dispatch({
-                    type: 'ADD_ENTRANCE',
-                    payload: response.data
-                })
+              dispatch({
+                  type: 'ADD_ENTRANCE',
+                  payload: response.data
+              })
             })
             .catch(() => {
               dispatch({
@@ -353,10 +428,10 @@ export const GlobalProvider = ({ children }) => {
         axios
             .delete(`${domainUrl}/added-entrances/${state.addedEntranceList.length}`)
             .then( response => {
-                dispatch({
-                    type: 'DELETE_ENTRANCE',
-                    payload: response.data
-                })
+              dispatch({
+                  type: 'DELETE_ENTRANCE',
+                  payload: response.data
+              })
             })
             .catch(() => {
               dispatch({
@@ -370,11 +445,11 @@ export const GlobalProvider = ({ children }) => {
         axios
             .get(`${domainUrl}/parked-cars`)
             .then( response => {
-                updateParkingList(response.data);
-                dispatch({
-                    type: 'GET_PARKED_CARS',
-                    payload: response.data
-                })
+              updateParkingList(response.data);
+              dispatch({
+                  type: 'GET_PARKED_CARS',
+                  payload: response.data
+              })
             })
             .catch(() => {
               dispatch({
@@ -387,24 +462,11 @@ export const GlobalProvider = ({ children }) => {
     const updateParkingList = (data) => {
         if (data.length === 0) return;
         data.forEach((car) => {
-          updateSlotObj(car);
+          dispatch({
+            type: 'UPDATE_PARKING_LISTS',
+            payload: car
+          });
         });
-    }
-
-    const updateSlotObj = (obj) => {
-        const { id, plateNumber, size, slotLocation, timeIn, timeOut, originalTimeIn, wasParked} = obj;
-        if (slotLocation) {
-            state.parkingLots[slotLocation[0]][slotLocation[1]][slotLocation[2]] = {
-                id,
-                plateNumber: plateNumber,
-                size,
-                slotLocation,
-                timeIn,
-                timeOut,
-                originalTimeIn,
-                wasParked
-            }
-        }
     }
 
     const toParkCars = async ( payload ) => {
@@ -415,11 +477,14 @@ export const GlobalProvider = ({ children }) => {
         if (wasParked) {
             axiosCall = axios.put(`${domainUrl}/parked-cars/${encodedPlateNumber}`, payload, config)
             .then(response => {
-              updateSlotObj(response.data);
-                dispatch({
-                    type: 'PARK_CARS',
-                    payload: response.data
-                });
+              dispatch({
+                type: 'UPDATE_PARKING_LISTS',
+                payload: response.data
+              });
+              dispatch({
+                  type: 'PARK_CARS',
+                  payload: response.data
+              });
             })
             .catch(() => {
               dispatch({
@@ -431,11 +496,14 @@ export const GlobalProvider = ({ children }) => {
         else {
             axiosCall = axios.post(`${domainUrl}/parked-cars`, payload, config)
             .then(response => {
-                updateSlotObj(response.data);
-                dispatch({
-                    type: 'PARK_CARS',
-                    payload: response.data
-                });
+              dispatch({
+                type: 'UPDATE_PARKING_LISTS',
+                payload: response.data
+              });
+              dispatch({
+                  type: 'PARK_CARS',
+                  payload: response.data
+              });
             })
             .catch(() => {
               dispatch({
@@ -446,30 +514,16 @@ export const GlobalProvider = ({ children }) => {
         }
     }
 
-    // parking fee calculation
-    const getHourlyRate = (slotSize) => {
-        let hourlyRate = 0;
-        hourlyRate = slotSize === 0 ? 20 : slotSize === 1 ? 60 : 100;
-        return hourlyRate;
-    }
-
-    const getDays = (hours) => {
-        if (hours >= 24) return Math.floor(hours / 24);
-    }
-
     const unParkCars = async ( payload ) => {
         const { plateNumber } = payload;
         let encodedPlateNumber = encodeURIComponent(plateNumber);
-
-        payload.slotLocation = null;
-
         axios
             .put(`${domainUrl}/parked-cars/${encodedPlateNumber}`, payload, config)
             .then(response => {
-                dispatch({
-                    type: 'UNPARK_CARS',
-                    payload: response.data
-                });
+              dispatch({
+                  type: 'UNPARK_CARS',
+                  payload: response.data
+              });
             })
             .catch(() => {
               dispatch({

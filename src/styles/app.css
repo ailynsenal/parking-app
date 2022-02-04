@@ -29,7 +29,7 @@
 .entrance {
   border: 1px solid #9ca3af;
   padding: 12px;
-  margin-right: calc(65% / 4);
+  margin-right: calc(30% / 5);
 }
 
 .entrance-content {
@@ -110,6 +110,7 @@
   border: 1px solid #9ca3af;
   margin-top: 18px;
   font-size: 12px;
+  min-height: 25px;
 }
 
 .car-icon {
@@ -130,8 +131,14 @@ button {
   margin-left: 12px;
 }
 
+.generate-plate-number:hover,
 .park-btn:hover {
   background-color: #0c7b93;
+}
+
+.generate-plate-number {
+  background-color: #1687a7;
+  margin-right: 12px;
 }
 
 .action-buttons {

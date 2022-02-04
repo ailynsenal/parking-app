@@ -41,21 +41,34 @@ export default (state, action) => {
                 isError: false,
             }
         case 'UNPARK_CARS':
-            let { id, timeOut } = action.payload;
-            state.parkedCars.find(car => {
-                if (car.plateNumber === id) {
-                    car.timeOut = timeOut;
+            let { id } = action.payload;
+            let parkedCarsList = state.parkedCars;
+            parkedCarsList.find(car => {
+                if (car.id === id) {
+                    car.slotLocation = action.payload.slotLocation;
+                    return car;
                 }
             });
             return {
                 ...state,
                 parkingLots: state.parkingLots,
-                parkedCars: state.parkedCars,
+                parkedCars: parkedCarsList,
                 isLoading: false,
                 isError: false,
             }
+        case 'UPDATE_PARKING_LISTS':
+            let { slotLocation } = action.payload;
+            if (slotLocation) {
+                let splitLocation = slotLocation.split('');
+                state.parkingLots[parseInt(splitLocation[0])][parseInt(splitLocation[1])][parseInt(splitLocation[2])] = action.payload;
+            }
+            return {
+                ...state,
+                parkingLots: state.parkingLots,
+                isLoading: false,
+                isError: false
+            }
         case 'TOGGLE_MODAL':
-            debugger;
             return {
                 ...state,
                 modalState: action.payload

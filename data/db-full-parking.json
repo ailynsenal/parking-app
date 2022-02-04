@@ -1,0 +1,327 @@
+{
+  "parked-cars": [
+    {
+      "id": "1",
+      "plateNumber": "1",
+      "slotLocation": "002",
+      "size": "0",
+      "timeIn": "2022-02-03T18:57:51.151Z",
+      "originalTimeIn": "2022-02-03T18:57:51.151Z",
+      "timeOut": null,
+      "wasParked": true
+    },
+    {
+      "id": "2",
+      "plateNumber": "2",
+      "slotLocation": "010",
+      "size": "0",
+      "timeIn": "2022-02-03T18:58:43.802Z",
+      "originalTimeIn": "2022-02-03T18:58:43.802Z",
+      "timeOut": null,
+      "wasParked": true
+    },
+    {
+      "id": "3",
+      "plateNumber": "3",
+      "slotLocation": "102",
+      "size": "2",
+      "timeIn": "2022-02-03T18:10:40.883Z",
+      "originalTimeIn": "2022-02-03T18:10:40.883Z",
+      "timeOut": null,
+      "wasParked": false
+    },
+    {
+      "id": "4",
+      "plateNumber": "4",
+      "slotLocation": "032",
+      "size": "2",
+      "timeIn": "2022-02-03T19:16:25.167Z",
+      "originalTimeIn": "2022-02-03T19:16:25.167Z",
+      "timeOut": null,
+      "wasParked": true
+    },
+    {
+      "id": "5",
+      "plateNumber": "5",
+      "slotLocation": "001",
+      "size": "0",
+      "timeIn": "2022-02-03T18:37:54.478Z",
+      "originalTimeIn": "2022-02-03T18:37:54.478Z",
+      "timeOut": null,
+      "wasParked": true
+    },
+    {
+      "id": "6",
+      "plateNumber": "6",
+      "slotLocation": "",
+      "size": "2",
+      "timeIn": "2022-02-03T18:10:47.608Z",
+      "originalTimeIn": "2022-02-03T18:10:47.608Z",
+      "timeOut": "2022-02-03T18:30:14.563Z",
+      "wasParked": false,
+      "totalParkingFee": 40,
+      "totalHrsOfPark": {
+        "days": 0,
+        "hours": 1,
+        "minutes": 20,
+        "seconds": 1167
+      }
+    },
+    {
+      "id": "7",
+      "plateNumber": "7",
+      "slotLocation": "122",
+      "size": "2",
+      "timeIn": "2022-02-03T18:10:49.483Z",
+      "originalTimeIn": "2022-02-03T18:10:49.483Z",
+      "timeOut": null,
+      "wasParked": false
+    },
+    {
+      "id": "8",
+      "plateNumber": "8",
+      "slotLocation": "132",
+      "size": "2",
+      "timeIn": "2022-02-03T18:10:51.659Z",
+      "originalTimeIn": "2022-02-03T18:10:51.659Z",
+      "timeOut": null,
+      "wasParked": false
+    },
+    {
+      "id": "9",
+      "plateNumber": "9",
+      "slotLocation": "042",
+      "size": "2",
+      "timeIn": "2022-02-03T18:10:55.367Z",
+      "originalTimeIn": "2022-02-03T18:10:55.367Z",
+      "timeOut": null,
+      "wasParked": false
+    },
+    {
+      "id": "10",
+      "plateNumber": "10",
+      "slotLocation": "142",
+      "size": "2",
+      "timeIn": "2022-02-03T18:10:57.573Z",
+      "originalTimeIn": "2022-02-03T18:10:57.573Z",
+      "timeOut": null,
+      "wasParked": false
+    },
+    {
+      "id": "11",
+      "plateNumber": "11",
+      "slotLocation": "242",
+      "size": "2",
+      "timeIn": "2022-02-03T18:10:59.334Z",
+      "originalTimeIn": "2022-02-03T18:10:59.334Z",
+      "timeOut": null,
+      "wasParked": false
+    },
+    {
+      "id": "12",
+      "plateNumber": "12",
+      "slotLocation": "202",
+      "size": "2",
+      "timeIn": "2022-02-03T18:11:04.755Z",
+      "originalTimeIn": "2022-02-03T18:11:04.755Z",
+      "timeOut": null,
+      "wasParked": false
+    },
+    {
+      "id": "13",
+      "plateNumber": "13",
+      "slotLocation": "212",
+      "size": "2",
+      "timeIn": "2022-02-03T18:11:06.238Z",
+      "originalTimeIn": "2022-02-03T18:11:06.238Z",
+      "timeOut": null,
+      "wasParked": false
+    },
+    {
+      "id": "14",
+      "plateNumber": "14",
+      "slotLocation": "222",
+      "size": "2",
+      "timeIn": "2022-02-03T18:11:08.393Z",
+      "originalTimeIn": "2022-02-03T18:11:08.393Z",
+      "timeOut": null,
+      "wasParked": false
+    },
+    {
+      "id": "15",
+      "plateNumber": "15",
+      "slotLocation": "232",
+      "size": "2",
+      "timeIn": "2022-02-03T18:11:16.677Z",
+      "originalTimeIn": "2022-02-03T18:11:16.677Z",
+      "timeOut": null,
+      "wasParked": false
+    },
+    {
+      "id": "16",
+      "plateNumber": "16",
+      "slotLocation": "402",
+      "size": "2",
+      "timeIn": "2022-02-03T18:11:23.673Z",
+      "originalTimeIn": "2022-02-03T18:11:23.673Z",
+      "timeOut": null,
+      "wasParked": false
+    },
+    {
+      "id": "17",
+      "plateNumber": "17",
+      "slotLocation": "412",
+      "size": "2",
+      "timeIn": "2022-02-03T18:11:25.677Z",
+      "originalTimeIn": "2022-02-03T18:11:25.677Z",
+      "timeOut": null,
+      "wasParked": false
+    },
+    {
+      "id": "18",
+      "plateNumber": "18",
+      "slotLocation": "302",
+      "size": "2",
+      "timeIn": "2022-02-03T18:11:27.631Z",
+      "originalTimeIn": "2022-02-03T18:11:27.631Z",
+      "timeOut": null,
+      "wasParked": false
+    },
+    {
+      "id": "19",
+      "plateNumber": "19",
+      "slotLocation": "312",
+      "size": "2",
+      "timeIn": "2022-02-03T18:11:29.537Z",
+      "originalTimeIn": "2022-02-03T18:11:29.537Z",
+      "timeOut": null,
+      "wasParked": false
+    },
+    {
+      "id": "20",
+      "plateNumber": "20",
+      "slotLocation": "422",
+      "size": "2",
+      "timeIn": "2022-02-03T18:11:33.703Z",
+      "originalTimeIn": "2022-02-03T18:11:33.703Z",
+      "timeOut": null,
+      "wasParked": false
+    },
+    {
+      "id": "21",
+      "plateNumber": "21",
+      "slotLocation": "432",
+      "size": "2",
+      "timeIn": "2022-02-03T18:11:37.991Z",
+      "originalTimeIn": "2022-02-03T18:11:37.991Z",
+      "timeOut": null,
+      "wasParked": false
+    },
+    {
+      "id": "22",
+      "plateNumber": "22",
+      "slotLocation": "322",
+      "size": "2",
+      "timeIn": "2022-02-03T18:11:39.407Z",
+      "originalTimeIn": "2022-02-03T18:11:39.407Z",
+      "timeOut": null,
+      "wasParked": false
+    },
+    {
+      "id": "23",
+      "plateNumber": "23",
+      "slotLocation": "332",
+      "size": "2",
+      "timeIn": "2022-02-03T18:11:41.280Z",
+      "originalTimeIn": "2022-02-03T18:11:41.280Z",
+      "timeOut": null,
+      "wasParked": false
+    },
+    {
+      "id": "24",
+      "plateNumber": "24",
+      "slotLocation": "442",
+      "size": "2",
+      "timeIn": "2022-02-03T18:11:45.728Z",
+      "originalTimeIn": "2022-02-03T18:11:45.728Z",
+      "timeOut": null,
+      "wasParked": false
+    },
+    {
+      "id": "25",
+      "plateNumber": "25",
+      "slotLocation": "342",
+      "size": "2",
+      "timeIn": "2022-02-03T18:11:48.259Z",
+      "originalTimeIn": "2022-02-03T18:11:48.259Z",
+      "timeOut": null,
+      "wasParked": false
+    },
+    {
+      "id": "27",
+      "plateNumber": "27",
+      "slotLocation": "000",
+      "size": "0",
+      "timeIn": "2022-02-03T18:29:54.675Z",
+      "originalTimeIn": "2022-02-03T18:29:54.675Z",
+      "timeOut": null,
+      "wasParked": false
+    },
+    {
+      "id": "28",
+      "plateNumber": "28",
+      "slotLocation": "112",
+      "size": "2",
+      "timeIn": "2022-02-03T18:30:00.134Z",
+      "originalTimeIn": "2022-02-03T18:30:00.134Z",
+      "timeOut": null,
+      "wasParked": false
+    },
+    {
+      "id": "29",
+      "plateNumber": "29",
+      "slotLocation": "011",
+      "size": "0",
+      "timeIn": "2022-02-04T02:32:30.750Z",
+      "originalTimeIn": "2022-02-04T02:32:30.750Z",
+      "timeOut": null,
+      "wasParked": false
+    },
+    {
+      "id": "30",
+      "plateNumber": "30",
+      "slotLocation": "022",
+      "size": "2",
+      "timeIn": "2022-02-04T02:32:45.912Z",
+      "originalTimeIn": "2022-02-04T02:32:45.912Z",
+      "timeOut": null,
+      "wasParked": true
+    },
+    {
+      "id": "31",
+      "plateNumber": "31",
+      "slotLocation": "012",
+      "size": "2",
+      "timeIn": "2022-02-04T02:32:53.998Z",
+      "originalTimeIn": "2022-02-04T02:32:53.998Z",
+      "timeOut": null,
+      "wasParked": false
+    }
+  ],
+  "added-entrances": [
+    {
+      "toAddEntrance": true,
+      "id": 1
+    },
+    {
+      "toAddEntrance": true,
+      "slot": 1,
+      "slot2": 2,
+      "id": 2
+    },
+    {
+      "toAddEntrance": true,
+      "id": 3
+    }
+  ]
+}
