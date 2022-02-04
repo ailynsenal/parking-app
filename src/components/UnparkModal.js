@@ -57,9 +57,9 @@ export const UnparkModal = ({ slot, slotIndex}) => {
     // getting the difference of timeOut and timeIn
     const timeDiff = getTimeDiff(timeOut);
     const msec = timeDiff;
-    const hours = Math.ceil(((msec / 1000) / 60) / 60);
+    const hours = Math.round(((msec / 1000) / 60) / 60);
     const minutes = Math.ceil(msec / 1000 / 60);
-    const seconds = Math.ceil(msec / 1000);
+    const seconds = Math.round(msec / 1000);
 
     // we first substract the 3 hours flat rate that cost 40 pesos
     // then check if the extended hour corresponds to days
